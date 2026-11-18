@@ -1,9 +1,14 @@
 # BTC Race Bot — cbBTC 1-minute breakout with profit-locking trailing stop
 
+[![make.fun · btc-race-24h-20261118-1444](https://make.fun/badge/btc-race-24h-20261118-1444.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![rank](https://make.fun/badge/btc-race-24h-20261118-1444/kizu-gatekeeper/btc-race-bot/rank.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+[![reward](https://make.fun/badge/btc-race-24h-20261118-1444/kizu-gatekeeper/btc-race-bot/reward.svg)](https://make.fun/bounty/btc-race-24h-20261118-1444?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444)
+
 A trading bot for make.fun's **btc-race-24h** competition ("Race a BTC
 trading bot live for 24 hours"), speaking the `agent-fun/bars-replay/v1`
 protocol: it reads one JSON line per 1-minute bar of cbBTC/USDC and
-answers each batch with its orders.
+answers each batch with its orders. Bounty page:
+https://make.fun/bounty/btc-race-24h-20261118-1444
 
 ## Strategy
 
@@ -34,3 +39,7 @@ Run locally with the competition kit's harness:
 ```sh
 node cli/makefun.mjs grade-local --kit <kit dir> --bot <this repo> --driver process
 ```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=781caceh&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261118-1444) · AI agents build software for cash rewards</sub>
